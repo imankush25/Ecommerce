@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta char et="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-    <!-- Boxicons -->
-    <link
-      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <!-- Glide js -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
-    <!-- Custom StyleSheet -->
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Ecommerce Website</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+        <!-- Boxicons -->
+        <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" />
+
+        <!-- Glide js -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css">
+        
+        <!-- Custom StyleSheet -->
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Ecommerce Website</title>
   </head>
   <body>
     <!-- Header -->
@@ -27,15 +27,32 @@
           <ul class="d-flex">
             <li><a href="#">About Us</a></li>
             <li><a href="#">FAQ</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#section-contact">Contact</a></li>
           </ul>
         </div>
       </div>
       <div class="navigation">
         <div class="nav-center container d-flex">
-        <a href="index.html" class="logo"><h1>WearKart</h1></a>
+          <a href="index.html" class="logo"><h1>WearKart</h1></a>
 
           <ul class="nav-list d-flex">
+            <li class="icons d-flex">
+              <a href="login.html" class="icon">
+                <i class="bx bx-user"></i>
+              </a>
+              <div class="icon">
+                <i class="bx bx-search"></i>
+              </div>
+              <div class="icon">
+                <i class="bx bx-heart"></i>
+                <span class="d-flex">0</span>
+              </div>
+              <a href="cart.html" class="icon">
+                <i class="bx bx-cart"></i>
+                <span class="d-flex">0</span>
+              </a>
+            </li>
+            
             <li class="nav-item">
               <a href="index.html" class="nav-link">Home</a>
             </li>
@@ -49,24 +66,8 @@
               <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
+              <a href="#section-contact" class="nav-link">Contact</a>
             </li>
-            <li class="icons d-flex">
-            <a href="login.html" class="icon">
-              <i class="bx bx-user"></i>
-            </a>
-            <div class="icon">
-              <i class="bx bx-search"></i>
-            </div>
-            <div class="icon">
-              <i class="bx bx-heart"></i>
-              <span class="d-flex">0</span>
-            </div>
-            <a href="cart.html" class="icon">
-              <i class="bx bx-cart"></i>
-              <span class="d-flex">0</span>
-            </a>
-          </li>
           </ul>
 
           <div class="icons d-flex">
@@ -87,7 +88,7 @@
           </div>
 
           <div class="hamburger">
-            <i class="bx bx-menu-alt-left"></i>
+            <i class="bx bx-menu-alt-left "></i>
           </div>
         </div>
       </div>
@@ -99,8 +100,8 @@
             <li class="glide__slide">
               <div class="center">
                 <div class="left">
-                  <span class="">New Inspiration 2020</span>
-                  <h1 class="">NEW COLLECTION!</h1>
+                  <span>New Inspiration 2020</span>
+                  <h1>NEW COLLECTION!</h1>
                   <p>Trending from men's and women's  style collection</p>
                   <a href="#" class="hero-btn">SHOP NOW</a>
                 </div>
@@ -168,8 +169,8 @@
           </div>
           <div class="product-info">
             <span>MEN'S CLOTHES</span>
-            <a href="">Sonata Black Men’s Shirt</a>
-            <h4>Rs 700</h4>
+            <a href="#">Harvard Black red Men’s Polo T-shirt</a>
+            <h4>Rs 749</h4>
           </div>
           <ul class="icons">
             <li><i class="bx bx-heart"></i></li>
@@ -179,7 +180,7 @@
         </div>
         <div class="product-item">
           <div class="overlay">
-            <a href="" class="product-thumb">
+            <a href="#" class="product-thumb">
               <img src="./images/product-3.jpg" alt="" />
             </a>
             <span class="discount">50%</span>
@@ -187,8 +188,8 @@
 
           <div class="product-info">
             <span>MEN'S CLOTHES</span>
-            <a href="">Sonata White Men’s Shirt</a>
-            <h4>Rs 800</h4>
+            <a href="#">H&M Black Men’s T-shirt</a>
+            <h4>Rs 339</h4>
           </div>
           <ul class="icons">
             <li><i class="bx bx-heart"></i></li>
@@ -198,13 +199,48 @@
         </div>
         <div class="product-item">
           <div class="overlay">
-            <a href="" class="product-thumb">
+            <a href="#" class="product-thumb">
               <img src="./images/product-2.jpg" alt="" />
             </a>
           </div>
           <div class="product-info">
             <span>MEN'S CLOTHES</span>
-            <a href="">Men Polo Neck Tshirt Yellow</a>
+            <a href="#">Men Polo Neck Yellow T-shirt</a>
+            <h4>Rs 449</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="#" class="product-thumb">
+              <img src="./images/product-4.jpg" alt="" />
+            </a>
+            <span class="discount">50%</span>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="#">Grey T-shirt</a>
+            <h4>Rs 299</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="#" class="product-thumb">
+              <img src="./images/product-5.jpg" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>MEN'S CLOTHES</span>
+            <a href="#">Men's Jacket</a>
             <h4>Rs 399</h4>
           </div>
           <ul class="icons">
@@ -215,49 +251,14 @@
         </div>
         <div class="product-item">
           <div class="overlay">
-            <a href="" class="product-thumb">
-              <img src="./images/product-4.jpg" alt="" />
-            </a>
-            <span class="discount">50%</span>
-          </div>
-          <div class="product-info">
-            <span>MEN'S CLOTHES</span>
-            <a href="">Grey Tshirt</a>
-            <h4>Rs 900</h4>
-          </div>
-          <ul class="icons">
-            <li><i class="bx bx-heart"></i></li>
-            <li><i class="bx bx-search"></i></li>
-            <li><i class="bx bx-cart"></i></li>
-          </ul>
-        </div>
-        <div class="product-item">
-          <div class="overlay">
-            <a href="" class="product-thumb">
-              <img src="./images/product-5.jpg" alt="" />
-            </a>
-          </div>
-          <div class="product-info">
-            <span>MEN'S CLOTHES</span>
-            <a href="">Men's Jacket</a>
-            <h4>Rs 249</h4>
-          </div>
-          <ul class="icons">
-            <li><i class="bx bx-heart"></i></li>
-            <li><i class="bx bx-search"></i></li>
-            <li><i class="bx bx-cart"></i></li>
-          </ul>
-        </div>
-        <div class="product-item">
-          <div class="overlay">
-            <a href="" class="product-thumb">
+            <a href="#" class="product-thumb">
               <img src="./images/product-6.jpg" alt="" />
             </a>
           </div>
           <div class="product-info">
             <span>MEN'S CLOTHES</span>
-            <a href=""> Green Men's Tshirt Neck </a>
-            <h4>Rs 500</h4>
+            <a href="#"> Men Polo Neck Green T-shirt </a>
+            <h4>Rs 499</h4>
           </div>
           <ul class="icons">
             <li><i class="bx bx-heart"></i></li>
@@ -267,14 +268,14 @@
         </div>
         <div class="product-item">
           <div class="overlay">
-            <a href="" class="product-thumb">
+            <a href="#" class="product-thumb">
               <img src="./images/product-7.jpg" alt="" />
             </a>
             <span class="discount">50%</span>
           </div>
           <div class="product-info">
             <span>MEN'S CLOTHES</span>
-            <a href="">Polo Tshirts for Men</a>
+            <a href="#">Polo Tshirts for Men Blue</a>
             <h4>Rs 429</h4>
           </div>
           <ul class="icons">
@@ -285,14 +286,14 @@
         </div>
         <div class="product-item">
           <div class="overlay">
-            <a href="" class="product-thumb">
+            <a href="#" class="product-thumb">
               <img src="./images/product-8.jpg" alt="" />
             </a>
           </div>
           <div class="product-info">
             <span>MEN'S CLOTHES</span>
-            <a href="">Men's Tshirt Neck Red</a>
-            <h4>Rs  560</h4>
+            <a href="#">Men's Tshirt Neck Maroon</a>
+            <h4>Rs  549</h4>
           </div>
           <ul class="icons">
             <li><i class="bx bx-heart"></i></li>
@@ -307,15 +308,15 @@
     <!-- Promo -->
 
     <section class="section banner">
-<div class="left">
-  <span class="trend">Trend Design</span>
-  <h1>New Collection 2021</h1>
-  <p>New Arrival <span class="color">Sale 50% OFF</span> Limited Time Offer</p>
-  <a href="#" class="btn btn-1">Discover Now</a>
-</div>
-<div class="right">
-  <img src="./images/banner.png" alt="">
-</div>
+        <div class="left">
+          <span class="trend">Trend Design</span>
+          <h1>New Collection 2021</h1>
+          <p>New Arrival <span class="color">Sale 50% OFF</span> Limited Time Offer</p>
+          <a href="#" class="btn btn-1">Discover Now</a>
+        </div>
+        <div class="right">
+          <img src="./images/banner.png" alt="">
+        </div>
     </section>
 
 
@@ -332,15 +333,15 @@
       <div class="product-center">
         <div class="product-item">
           <div class="overlay">
-            <a href="" class="product-thumb">
-              <img src="./images/product-7.jpg" alt="" />
+            <a href="#" class="product-thumb">
+              <img src="./images/product-10.jpg" alt="" />
             </a>
             <span class="discount">50%</span>
           </div>
           <div class="product-info">
             <span>MEN'S CLOTHES</span>
-            <a href="">Quis Nostrud Exercitation</a>
-            <h4>Rs  700</h4>
+            <a href="#">Printed T-shirt Black</a>
+            <h4>Rs  699</h4>
           </div>
           <ul class="icons">
             <li><i class="bx bx-heart"></i></li>
@@ -350,15 +351,15 @@
         </div>
         <div class="product-item">
           <div class="overlay">
-            <a href="" class="product-thumb">
-              <img src="./images/product-4.jpg" alt="" />
+            <a href="#" class="product-thumb">
+              <img src="./images/product-9.jpeg" alt="" />
             </a>
           </div>
 
           <div class="product-info">
             <span>MEN'S CLOTHES</span>
-            <a href="">Sonata White Men’s Shirt</a>
-            <h4>Rs  800</h4>
+            <a href="#">Men Polo Neck Pink T-shirt</a>
+            <h4>Rs  799</h4>
           </div>
           <ul class="icons">
             <li><i class="bx bx-heart"></i></li>
@@ -368,15 +369,15 @@
         </div>
         <div class="product-item">
           <div class="overlay">
-            <a href="" class="product-thumb">
-              <img src="./images/product-1.jpg" alt="" />
+            <a href="#" class="product-thumb">
+              <img src="./images/product-11.jpg" alt="" />
             </a>
             <span class="discount">40%</span>
           </div>
           <div class="product-info">
             <span>MEN'S CLOTHES</span>
-            <a href="">Concepts Solid Pink Men’s Polo</a>
-            <h4>Rs  150</h4>
+            <a href="#">Concepts Solid Black T-shirt</a>
+            <h4>Rs  499</h4>
           </div>
           <ul class="icons">
             <li><i class="bx bx-heart"></i></li>
@@ -384,40 +385,24 @@
             <li><i class="bx bx-cart"></i></li>
           </ul>
         </div>
-        <div class="product-item">
-          <div class="overlay">
-            <a href="" class="product-thumb">
-              <img src="./images/product-6.jpg" alt="" />
-            </a>
-          </div>
-          <div class="product-info">
-            <span>MEN'S CLOTHES</span>
-            <a href="">Edor do eiusmod tempor</a>
-            <h4>Rs  900</h4>
-          </div>
-          <ul class="icons">
-            <li><i class="bx bx-heart"></i></li>
-            <li><i class="bx bx-search"></i></li>
-            <li><i class="bx bx-cart"></i></li>
-          </ul>
-        </div>
+      </div>
 
     </section>
 
     <!-- Contact -->
-    <section class="section contact">
+    <section id="section-contact" class="section contact">
       <div class="row">
         <div class="col">
           <h2>EXCELLENT SUPPORT</h2>
           <p>We love our customers   and they can reach us any time
           of day we will be at your service 24/7</p>
-          <a href="" class="btn btn-1">Contact</a>
+          <a href="#" class="btn btn-1">Contact</a>
         </div>
         <div class="col">
           <form action="">
             <div>
               <input type="email" placeholder="Email Address">
-            <a href="">Send</a>
+            <a href="#">Send</a>
             </div>
           </form>
         </div>
@@ -429,24 +414,24 @@
       <div class="row">
         <div class="col d-flex">
           <h4>INFORMATION</h4>
-          <a href="">About us</a>
-          <a href="">Contact Us</a>
-          <a href="">Term & Conditions</a>
-          <a href="">Shipping Guide</a>
+          <a href="#">About us</a>
+          <a href="#section-contact">Contact Us</a>
+          <a href="#">Term & Conditions</a>
+          <a href="#">Shipping Guide</a>
         </div>
         <div class="col d-flex">
           <h4>USEFUL LINK</h4>
-          <a href="">Online Store</a>
-          <a href="">Customer Services</a>
-          <a href="">Promotion</a>
-          <a href="">Top Brands</a>
+          <a href="#">Online Store</a>
+          <a href="#">Customer Services</a>
+          <a href="#">Promotion</a>
+          <a href="#">Top Brands</a>
         </div>
         <div class="col d-flex">
-          <span><i class='bx bxl-facebook-square'></i></span>
-          <span><i class='bx bxl-instagram-alt' ></i></span>
-          <span><i class='bx bxl-github' ></i></span>
-          <span><i class='bx bxl-twitter' ></i></span>
-          <span><i class='bx bxl-pinterest' ></i></span>
+          <span><i class='fa fa-facebook'></i></span>
+          <span><i class='fa fa-instagram' ></i></span>
+          <span><i class='fa fa-github' ></i></span>
+          <span><i class='fa fa-twitter' ></i></span>
+          <span><i class='fa fa-pinterest' ></i></span>
         </div>
       </div>
     </footer>
